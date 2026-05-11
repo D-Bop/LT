@@ -1,3 +1,18 @@
+interface Product {
+  id: string;
+  name: string;
+  description: string;
+  price: string;
+  image: string;
+}
+
+interface Brand {
+  id: string;
+  name: string;
+  tagline: string;
+  image: string;
+  products: Product[];  // ← this tells TypeScript: products is always an array
+}
 export const brands = [
   // Audemars Piguet
   {

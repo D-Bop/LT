@@ -33,7 +33,7 @@ export default async function BrandPage({ params }: Props) {
 
       {/* Product grid */}
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {brandData.products.map((watch) => (
+        {(brandData.products ?? []).map((watch) => (
           <WatchCard key={watch.id} watch={watch} />
         ))}
       </div>
