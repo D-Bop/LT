@@ -20,7 +20,7 @@ export default function Navbar() {
         <ul className="hidden md:flex gap-8 text-sm tracking-widest uppercase">
           <li><Link href="/" className="hover:text-amber-400 transition-colors">Home</Link></li>
           <li><Link href="/watches" className="hover:text-amber-400 transition-colors">Watches</Link></li>
-          <li><Link href="#contact" className="hover:text-amber-400 transition-colors">Contact</Link></li>
+          <li><Link href="/contact" className="hover:text-amber-400 transition-colors">Contact</Link></li>
         </ul>
 
         {/* Mobile Hamburger Button */}
@@ -40,7 +40,7 @@ export default function Navbar() {
         <ul className="md:hidden flex flex-col gap-4 mt-4 px-2 pb-4 text-sm tracking-widest uppercase">
           <li><Link href="/" onClick={() => setMenuOpen(false)} className="hover:text-amber-400 transition-colors">Home</Link></li>
           <li><Link href="/watches" onClick={() => setMenuOpen(false)} className="hover:text-amber-400 transition-colors">Watches</Link></li>
-          <li><Link href="#contact" onClick={() => setMenuOpen(false)} className="hover:text-amber-400 transition-colors">Contact</Link></li>
+          <li><Link href="/contact" onClick={() => setMenuOpen(false)} className="hover:text-amber-400 transition-colors">Contact</Link></li>
         </ul>
       )}
 
