@@ -333,6 +333,7 @@ export const brands = [
     name: "Cartier",
     tagline: "Never Imitate, Always Innovate",
     image: "/brands/Cartier.jpg",
+    products: []
   },
 
   //  Poedagar

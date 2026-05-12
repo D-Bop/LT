@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "D's time pieces",
+  title: "Legacy Timepieces",
   description: "Luxury watches for every occasion",
 };
 
