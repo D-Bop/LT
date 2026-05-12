@@ -14,7 +14,7 @@ export default function Navbar() {
 
         {/* Logo */}
         <Image
-          src="/logo.svg"
+          src="/legacy-timepieces-logo.svg"
           alt="Legacy Timepieces"
           width={120}
           height={60}
