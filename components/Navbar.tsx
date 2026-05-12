@@ -16,8 +16,8 @@ export default function Navbar() {
         <Image
           src="/legacy-timepieces-logo.svg"
           alt="Legacy Timepieces"
-          width={120}
-          height={60}
+          width={150}
+          height={150}
           className="object-contain"
         />
 
