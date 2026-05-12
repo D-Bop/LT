@@ -1,0 +1,70 @@
+<svg width="680" height="400" viewBox="0 0 680 400" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Legacy Timepieces logo</title>
+  <desc>Circular watch dial emblem with LT monogram surrounded by hour markers, with Legacy Timepieces text and tagline below</desc>
+
+  <!-- Dark background -->
+  <circle cx="340" cy="192" r="128" fill="#0c0a09"/>
+
+  <!-- Decorative outer rings -->
+  <circle cx="340" cy="192" r="122" fill="none" stroke="#F59E0B" stroke-width="0.4" opacity="0.4"/>
+  <circle cx="340" cy="192" r="116" fill="none" stroke="#F59E0B" stroke-width="0.3" opacity="0.25"/>
+
+  <!-- Main clock face ring -->
+  <circle cx="340" cy="192" r="108" fill="none" stroke="#F59E0B" stroke-width="1.4"/>
+
+  <!-- Inner subtle ring -->
+  <circle cx="340" cy="192" r="68" fill="none" stroke="#F59E0B" stroke-width="0.4" opacity="0.2"/>
+
+  <!-- Major tick marks — 12, 3, 6, 9 -->
+  <line x1="340" y1="84" x2="340" y2="100" stroke="#F59E0B" stroke-width="2.2"/>
+  <line x1="448" y1="192" x2="432" y2="192" stroke="#F59E0B" stroke-width="2.2"/>
+  <line x1="340" y1="300" x2="340" y2="284" stroke="#F59E0B" stroke-width="2.2"/>
+  <line x1="232" y1="192" x2="248" y2="192" stroke="#F59E0B" stroke-width="2.2"/>
+
+  <!-- Minor tick marks — 1, 2, 4, 5, 7, 8, 10, 11 -->
+  <line x1="394" y1="98.4" x2="390.5" y2="104.5" stroke="#F59E0B" stroke-width="1" opacity="0.8"/>
+  <line x1="433.5" y1="138" x2="427.5" y2="141.5" stroke="#F59E0B" stroke-width="1" opacity="0.8"/>
+  <line x1="433.5" y1="246" x2="427.5" y2="242.5" stroke="#F59E0B" stroke-width="1" opacity="0.8"/>
+  <line x1="394" y1="285.6" x2="390.5" y2="279.5" stroke="#F59E0B" stroke-width="1" opacity="0.8"/>
+  <line x1="286" y1="285.6" x2="289.5" y2="279.5" stroke="#F59E0B" stroke-width="1" opacity="0.8"/>
+  <line x1="246.5" y1="246" x2="252.5" y2="242.5" stroke="#F59E0B" stroke-width="1" opacity="0.8"/>
+  <line x1="246.5" y1="138" x2="252.5" y2="141.5" stroke="#F59E0B" stroke-width="1" opacity="0.8"/>
+  <line x1="286" y1="98.4" x2="289.5" y2="104.5" stroke="#F59E0B" stroke-width="1" opacity="0.8"/>
+
+  <!-- LT monogram -->
+  <text x="340" y="192"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="68"
+    font-weight="400"
+    fill="#F59E0B"
+    text-anchor="middle"
+    dominant-baseline="central"
+    letter-spacing="10">LT</text>
+
+  <!-- Centre dot -->
+  <circle cx="340" cy="192" r="3.5" fill="#F59E0B"/>
+
+  <!-- Decorative separator — lines + diamond -->
+  <line x1="270" y1="326" x2="305" y2="326" stroke="#F59E0B" stroke-width="0.5" opacity="0.5"/>
+  <polygon points="340,322 340,330 344,326" fill="#F59E0B" opacity="0.7"/>
+  <line x1="375" y1="326" x2="410" y2="326" stroke="#F59E0B" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Brand name -->
+  <text x="340" y="348"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="15"
+    font-weight="400"
+    fill="#F59E0B"
+    text-anchor="middle"
+    letter-spacing="7">LEGACY TIMEPIECES</text>
+
+  <!-- Tagline -->
+  <text x="340" y="369"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="10"
+    font-style="italic"
+    fill="#92400e"
+    text-anchor="middle"
+    letter-spacing="2">Where time meets legacy</text>
+
+</svg>

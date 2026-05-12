@@ -22,10 +22,7 @@ const WatchesPage = () => {
                 {brands.map((brand) => (
                 <BrandCard
                     key={brand.id}
-                    id={brand.id}
-                    name={brand.name}
-                    tagline={brand.tagline}
-                    image={brand.image}
+                    brand={brand}
                 />
                 ))}
             </div>

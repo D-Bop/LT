@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,9 +13,14 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto flex items-center justify-between">
 
         {/* Logo */}
-        <Link href="/" className="font-serif text-2xl tracking-widest text-amber-400">
-          LT
-        </Link>
+        <Image
+          src="/logo.svg"
+          alt="Legacy Timepieces"
+          width={120}
+          height={60}
+          className="object-contain"
+        />
+
 
         {/* Desktop Links */}
         <ul className="hidden md:flex gap-8 text-sm tracking-widest uppercase">
