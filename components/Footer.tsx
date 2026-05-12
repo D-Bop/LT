@@ -1,7 +1,7 @@
 // components/Footer.tsx
 import Link from "next/link";
 
-const WHATSAPP_NUMBER = "2348012345678"; // ✏️ your number here
+const WHATSAPP_NUMBER = "2347036820374";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 
 export default function Footer() {
@@ -63,16 +63,8 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-stone-400 hover:text-amber-400 transition-colors duration-300 text-sm font-sans"
               >
-                WhatsApp Us
+                Contact Us
               </a>
-            </li>
-            <li>
-                <Link
-                    href="/contact"
-                    className="text-stone-400 hover:text-amber-400 transition-colors duration-300 text-sm font-sans"
-                >
-                    Contact
-                </Link>
             </li>
           </ul>
         </div>

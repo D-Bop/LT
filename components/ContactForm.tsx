@@ -4,7 +4,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-const WHATSAPP_NUMBER = "2348012345678"; // ✏️ your number here
+const WHATSAPP_NUMBER = "2347036820374";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
