@@ -22,7 +22,7 @@ export default function EnquiryModal({ watch, isOpen, onClose }: EnquiryModalPro
 
   if (!watch) return null;
 
-  const message = `Hello! I'm interested in purchasing this watch from Legacy Timepieces.
+  const message = `Hello LT!, I'm interested in this watch.
 
 *Watch:* ${watch.name}
 *Description:* ${watch.description}
