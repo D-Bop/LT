@@ -5,6 +5,8 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import EnquiryModal from "@/components/EnquiryModal";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
 interface Watch {
   id: string;
@@ -48,8 +50,9 @@ export default function WatchCard({ watch }: WatchCardProps) {
           {/* Enquire Now button — opens modal on click */}
           <button
             onClick={() => setModalOpen(true)}
-            className="w-full border border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-stone-950 transition-colors duration-300 py-2 uppercase tracking-widest text-sm font-sans"
+            className="w-full flex items-center justify-center gap-2 border border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-stone-950 transition-colors duration-300 py-2 uppercase tracking-widest text-sm font-sans"
           >
+            <FontAwesomeIcon icon={faCartShopping} className="w-4 h-4" />
             Enquire Now
           </button>
         </div>
